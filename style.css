@@ -256,17 +256,20 @@ p
     
 }
 
-@media screen and (max-width: 800px){
+@media only  screen and (max-width: 800px){
+	
  	.portfolio 
  	{
  		width: 100%;
  		overflow:scroll;
-
+ 		
  	}
  	.dashboard 
  	{
  		margin-top:5px;
+
  	}
+ 	
  	#linkedin
  	{
  		left:35%;

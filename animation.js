@@ -33,7 +33,7 @@ var github=document.getElementById("github");
 
 document.body.onload = function() {
   type_effect();
-  document.getElementById("title_summary").fadeIn("slow");
+  
 
 }
 
