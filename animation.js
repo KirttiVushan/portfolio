@@ -40,6 +40,7 @@ document.body.onload = function() {
 
 //onclicks
 about_timeline.onclick=function() {
+
 	summary.style.display="block";
 	education.style.display="none";
 	experience.style.display="none";
@@ -135,8 +136,13 @@ if (i < texts.length) {
 // 	type_effect();
 // }
 
+var main=document.getElementsByTagName("main");
+
 linkedin.onclick=function() {
+	
+
 window.open('https://www.linkedin.com/in/kirttivushan-talukdar-57560b1a4/', '_blank');
+
 }
 
 github.onclick=function() {
